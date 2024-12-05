@@ -1,0 +1,284 @@
+.staatliches-regular {
+    font-family: "Staatliches", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .niconne-regular {
+    font-family: "Niconne", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+ 
+  
+  .dynapuff {
+    font-family: "DynaPuff", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }    
+
+
+  * { margin: 0; padding: 0;}
+
+
+body {
+    color: #40514e;
+    padding: 0px;
+    margin: 0px;
+    
+    text-align: center;
+    
+  }
+
+.img-txt {
+    text-align: center;
+}
+  
+.top-container {
+    background-color: #7017a3;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    position: relative;
+    
+    
+}
+
+h1 {
+    margin-top: 90px;
+    color: rgba(253, 253, 253, 0.829);
+    font-size: 100px;
+    font-family: dynapuff;
+}
+h2 {
+    margin-top: 0px;
+    color: wheat;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+
+.meno {
+    color: rgb(0, 5, 2);
+    font-weight: 10000;
+}
+
+.title-img {
+    position: absolute;
+    top: 10%;
+    left: 0px;
+    
+}
+
+.prvalajna {
+    display: inline-block;
+    margin-top: 40px auto;
+    border: dotted #7017a3;
+    width: 30%;
+}
+
+.mid-container {
+     display: inline-flex; 
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+        margin-top: 0px; 
+        position: relative; 
+        width: 100%;
+        
+        
+        padding-top: 70px;
+
+    }
+
+
+.Hi {
+    padding-bottom: 30px;
+    font-size: 80px;
+    margin-top: 0px;
+    font-family: dynapuff;
+    color: #7017a3;
+    letter-spacing: 15px;
+    
+}
+
+
+    
+    
+
+
+.omne {
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.5;
+    width: 60%;
+    color: #000000;
+    margin-bottom: 0;
+    text-align: center;
+    
+    
+}
+
+
+
+.ja-img {
+    border: #7017a3 dotted;
+    border-radius: 100%;
+}
+
+.mojeprojecty {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 10px;
+    
+
+}
+
+.item {
+   flex: 1;
+   
+
+
+}
+
+.project {
+    width: 80%;
+    height: 400px;
+    border: #7017a3 solid 6px;
+}
+
+.projectytitle {
+    font-size: 40px
+}
+ .lajna2 {
+
+    margin-top: 70px;
+ }
+
+ .contact-me {
+    padding-top: 70px;
+    
+ }
+ 
+
+ .btn {
+    background-color: #04AA6D;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;   
+    font-family: dynapuff;
+    border-radius: 30px;
+    width: 30%;
+    
+
+ }
+
+.contact-msg {
+    padding-bottom: 30px;
+    font-size: 25px
+}
+
+.getin {
+    padding-bottom: 0px;
+}
+
+.bottom {
+    background-color: #7017a3;
+    width: 100%;
+    margin-top: 70px;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 0;
+
+}
+
+
+.footer {
+    padding-top: 50px;
+    padding-bottom: 10px;
+    text-align: center;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+
+    
+    
+    
+    
+    
+}
+
+.footer-link {  
+    
+    border: none;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    
+    
+}
+
+svg {
+    width: 100%;
+    height: 100%;
+}
+
+.copyright {
+    color: #d4a5cc;
+    font-size: 0.5rem;
+    background-color: #7017a3;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 20px 0;
+    
+}
+
+
+ 
+
+
+
+
+
+
+
+@media (max-width:1203px) {
+
+    .title-img {
+        transform: rotate(140deg);
+        
+        
+        position: absolute;
+        left: 30px;
+        top: 300px;
+    }
+        
+    }
+
+
+@media (max-width:1890px) {
+    .mojeprojecty {
+        display: flex;
+        flex-direction: column;
+    }
+    .project {
+        width: 50%;
+    }
+}
+
+
+
